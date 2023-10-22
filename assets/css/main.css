@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    @apply bg-gray-950 text-white;
+    @apply bg-black text-white;
 }
 
 @font-face {
