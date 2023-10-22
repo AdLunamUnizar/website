@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#1d4ed8',
+        'primary': '#0284c7',
       },
       fontFamily: {
         sans: ['Nasalization-Rg']
