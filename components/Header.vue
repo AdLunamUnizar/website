@@ -1,5 +1,5 @@
 <template>
-    <header class="w-full flex flex-row justify-center">
+    <header class="w-full flex flex-row justify-center text-lg">
         <div class="w-full max-w-4xl p-6 flex flex-row justify-between items-center">
             <a href="/"><img class="h-16" src="images/logo.png"></a>
             <div class="w-1/2 flex flex-row justify-between">

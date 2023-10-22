@@ -13,6 +13,9 @@ export default {
       colors: {
         'primary': '#1d4ed8',
       },
+      fontFamily: {
+        sans: ['Nasalization-Rg']
+      },
     },
   },
   plugins: [],
