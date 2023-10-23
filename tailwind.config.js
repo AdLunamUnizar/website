@@ -11,7 +11,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#0284c7',
+        'primary': '#00A9FF',
+        'hover': '#0096e3'
       },
       fontFamily: {
         sans: ['Nasalization-Rg']
