@@ -12,5 +12,8 @@ export default({
     title: 'AlUnizar',
     script: [
     ]
-  }
+  },
+  modules: [
+    '@nuxt/content'
+  ],
 })
