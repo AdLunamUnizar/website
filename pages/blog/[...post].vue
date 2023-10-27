@@ -1,7 +1,15 @@
 <template>
     <Header></Header>
-    <ContentDoc />
+    <Main>
+      <ContentDoc />
+    </Main>
 </template>
+
+<style>
+h1 {
+  @apply text-center my-5;
+}
+</style>
 
 <script setup>
 /*const route = useRoute()

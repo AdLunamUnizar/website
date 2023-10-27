@@ -1,5 +1,7 @@
 <template>
-  <canvas id="canvas"></canvas>
+  <div class="w-full overflow-hidden flex flex-column justify-center">
+    <canvas id="canvas"></canvas>
+  </div>
 </template>
 
 <script setup>
@@ -7,7 +9,7 @@ onMounted(() => {
   // Made by https://github.com/Ashikpaul/Starfield-effect/blob/master/script.js
   const canvas = document.getElementById('canvas');
   const ctx = canvas.getContext('2d');
-  canvas.width = window.innerWidth - 100; // screen width
+  canvas.width = window.innerWidth; // screen width
   canvas.height = window.innerHeight; // screen height
 
   class Star {

@@ -32,7 +32,13 @@
                     Contact
                 </a>
             </div>
-            <a :class="isNavVisible ? 'block' : 'hidden'"  class="my-2 md:my-0 md:block" target="_blank" href="https://docs.google.com/forms/d/1me2YhfKRXGim-WILX1wPTUj3TOheu39S1PSdAOTeuAo"><ButtonFilled>JOIN US!</ButtonFilled></a>
+            <a 
+                :class="isNavVisible ? 'block' : 'hidden'"  
+                class="my-2 md:my-0 md:block" 
+                target="_blank" href="https://docs.google.com/forms/d/1me2YhfKRXGim-WILX1wPTUj3TOheu39S1PSdAOTeuAo"
+            >
+                <ButtonFilled>JOIN US!</ButtonFilled>
+            </a>
         </div>
     </nav>
 </template>
