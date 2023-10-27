@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col w-full items-center justify-center m-3">
+    <div class="flex flex-col w-full items-center justify-center p-3">
         <h1>Take a look at our projects</h1>
     </div>
     <div class="max-w-2xl mx-auto">
