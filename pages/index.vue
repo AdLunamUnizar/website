@@ -4,4 +4,5 @@
     <!--Starfield/-->
     <AdLunam></AdLunam>
     <Projects></Projects>
+    <Departments></Departments>
 </template>

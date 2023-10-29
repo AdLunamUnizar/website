@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col w-full items-center mt-2 mb-2">
+    <div class="flex flex-col w-full items-center justify-center mt-2 mb-2">
         <img class="w-1/2 md:w-2/5 m-2" src="images/adlunam.png">
         <h4>University of Zaragoza Rocketry Team</h4>
     </div>
