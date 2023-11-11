@@ -1,7 +1,12 @@
 <template>
     <Header></Header>
     <Main>
-      <ContentDoc />
+      <ContentDoc v-slot="{ doc }">
+        <article>
+          <div :style="`background-image: url('/images/blog/` + doc.photo + `')`" class="w-full h-60 rounded-md bg-cover"></div>
+          <ContentRenderer :value="doc" />
+        </article>
+      </ContentDoc>
     </Main>
 </template>
 

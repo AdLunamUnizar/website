@@ -2,7 +2,7 @@
 title: Second post
 description: This is the second post :)
 date: 27/10/2023
-photo: 
+photo: propulsion.jpg
 ---
 
 # Second post

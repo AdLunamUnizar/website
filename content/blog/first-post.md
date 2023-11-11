@@ -2,7 +2,7 @@
 title: First post
 description: This is the first post :)
 date: 23/09/2023
-photo: 
+photo: electronics.jpg
 ---
 
 # First post
