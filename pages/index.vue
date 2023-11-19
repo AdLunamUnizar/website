@@ -6,4 +6,5 @@
     <Projects></Projects>
     <Departments></Departments>
     <LastBlog></LastBlog>
+    <Partners></Partners>
 </template>
