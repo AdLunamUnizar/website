@@ -49,28 +49,40 @@
 </style>
 
 <script setup>
-const shownDepartment = ref(0)
+import { ref } from 'vue'
 
+const props = defineProps({
+    departments: {
+        type: Array,
+        required: true
+    }
+})
+
+const shownDepartment = ref(0);
+
+// EXAMPLE OF DEPARTMENTS ARRAY
+/*
 const departments = [
     {
         title: 'Design',
-        image: '/images/department_design.jpg'
+        image: '/images/departments/department_design.jpg'
     },
     {
         title: 'Electronics',
-        image: '/images/department_electronics.jpg'
+        image: '/images/departments/department_electronics.jpg'
     },
     {
         title: 'Propulsion',
-        image: '/images/department_propulsion.jpg'
+        image: '/images/departments/department_propulsion.jpg'
     },
 ]
+*/
 
 const previous = () => {
-    shownDepartment.value = (shownDepartment.value + departments.length - 1) % departments.length
+    shownDepartment.value = (shownDepartment.value + props.departments.length - 1) % props.departments.length;
 }
 
 const next = () => {
-    shownDepartment.value = (shownDepartment.value + 1) % departments.length
+    shownDepartment.value = (shownDepartment.value + 1) % props.departments.length;
 }
 </script>
