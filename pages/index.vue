@@ -5,4 +5,5 @@
     <AdLunam></AdLunam>
     <Projects></Projects>
     <Departments></Departments>
+    <LastBlog></LastBlog>
 </template>
