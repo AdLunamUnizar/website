@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col w-full items-center justify-center p-3">
-        <h1>Take a look at our projects</h1>
+        <h1 class="text-center">Take a look at our projects</h1>
         <ol class="max-w-2xl relative border-l border-primary m-3">
             <li class="mb-10 ml-4">
                 <div

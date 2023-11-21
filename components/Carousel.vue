@@ -2,7 +2,7 @@
     <div id="indicators-carousel" class="relative w-full m-3" data-carousel="static">
         <!-- Carousel wrapper -->
         
-        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+        <div class="relative overflow-hidden rounded-lg h-48">
             <!--<TransitionGroup name="carousel" tag="div">-->
                 <div 
                     v-for="(department, index) in departments" 
