@@ -15,5 +15,11 @@
 
 <script setup>
 const posts = await queryContent('/').find()
+// Ordenar los posts por fecha de más nuevo a más viejo
+posts.sort((a, b) => {
+  const dateA = a.date.split('/').reverse().join('-');
+  const dateB = b.date.split('/').reverse().join('-');
+  return new Date(dateB) - new Date(dateA);
+});
 console.log(posts)
 </script>
