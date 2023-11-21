@@ -1,5 +1,5 @@
 <template>
-    <div id="indicators-carousel" class="relative w-full m-3" data-carousel="static">
+    <div id="indicators-carousel" class="relative w-full" data-carousel="static">
         <!-- Carousel wrapper -->
         
         <div class="relative overflow-hidden rounded-lg h-48">
