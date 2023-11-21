@@ -4,7 +4,7 @@
         <ol class="max-w-2xl relative border-l border-primary m-3">
             <li class="mb-10 ml-4">
                 <div
-                    class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-primary bg-primary">
+                    class="absolute w-3 h-3 rounded-full -left-1.5 border border-primary bg-primary">
                 </div>
                 <h3 class="text-gray-900 dark:text-white">AUGUSTA</h3>
                 <time class="mb-1 text-sm font-normal leading-none text-primary">23 September, 2023</time>
@@ -13,7 +13,7 @@
             </li>
             <li class="mb-10 ml-4">
                 <div
-                    class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-primary bg-primary">
+                    class="absolute w-3 h-3 rounded-full -left-1.5 border border-primary bg-primary">
                 </div>
                 <h3 class="text-gray-900 dark:text-white">PIRINEUS</h3>
                 <time class="mb-1 text-sm font-normal leading-none text-primary">Expected in 2024</time>
@@ -22,7 +22,7 @@
             </li>
             <li class="ml-4">
                 <div
-                    class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-primary bg-primary">
+                    class="absolute w-3 h-3 rounded-full -left-1.5 border border-primary bg-primary">
                 </div>
                 <h3 class="text-gray-900 dark:text-white">Testbench</h3>
                 <time class="mb-1 text-sm font-normal leading-none text-primary">Developing from 2023 to 2025</time>
