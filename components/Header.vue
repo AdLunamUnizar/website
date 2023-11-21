@@ -28,7 +28,7 @@
                 <a 
                     :class="isNavVisible ? 'block' : 'hidden'"  
                     class="my-1 hover:text-primary md:block" 
-                    href="/contact">
+                    href="mailto:alunizar@unizar.es">
                     Contact
                 </a>
             </div>

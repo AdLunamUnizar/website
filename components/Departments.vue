@@ -1,8 +1,8 @@
 <template>
-    <div class="flex flex-col items-center justify-center p-3">
+    <div id="departments" class="flex flex-col items-center justify-center p-3">
         <div class="max-w-2xl">
             <h1 class="text-center">Departments</h1>
-            <h6 class="mb-2">Our success is based on communication and multidisciplinary work</h6>
+            <h6 class="mb-2 text-center">Our success is based on communication and multidisciplinary work</h6>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <!-- Fila 1 -->
                 <div class="w-full">
