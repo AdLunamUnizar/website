@@ -14,6 +14,7 @@ export default({
     ]
   },
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    'nuxt-particles'
   ],
 })
