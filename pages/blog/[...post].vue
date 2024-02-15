@@ -2,7 +2,7 @@
     <Header></Header>
     <Main>
       <ContentDoc v-slot="{ doc }">
-        <article>
+        <article class="article-content">
           <div :style="`background-image: url('/images/blog/` + doc.photo + `')`" class="w-full h-60 rounded-md bg-cover"></div>
           <ContentRenderer :value="doc" />
         </article>
@@ -13,6 +13,12 @@
 <style>
 h1 {
   @apply text-center my-5;
+}
+</style>
+
+<style>
+.article-content p {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 </style>
 
