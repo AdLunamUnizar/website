@@ -5,7 +5,7 @@
               <Button @click="show_nav()" class="md:hidden col-start-1 col-end-2">☰</Button>
               <a href="/" class="col-start-2 col-end-6"><img class="h-14" src="/images/logo.png"></a>
           </div>
-          <a href="/" class="hidden md:block"><img class="h-14" src="images/logo.png"></a>
+          <a href="/" class="hidden md:block"><img class="h-14" src="/public/images/logo.png"></a>
           <div class="w-1/2 flex md:flex-row flex-col justify-between items-center">
               <a ref="nav1" class="my-1 hover:text-primary hidden md:block" href="/#projects">Projects</a>
               <a ref="nav2" class="my-1 hover:text-primary hidden md:block" href="/#departments">Departments</a>

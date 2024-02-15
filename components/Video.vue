@@ -4,6 +4,6 @@
             <source src="videos/video.mp4" type="video/mp4"/>
             Your browser does not support the video tag.
         </video>
-        <img class="z-20 relative h-14" src="images/logo.png">
+        <img class="z-20 relative h-14" src="/public/images/logo.png">
     </header>
 </template>
