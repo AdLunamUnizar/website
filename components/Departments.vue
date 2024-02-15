@@ -7,27 +7,27 @@
                 <!-- Fila 1 -->
                 <div class="w-full">
                     <h4 class="text-center">Design</h4>
-                    <Carousel :departments="departments"></Carousel>
+                    <Carousel :departments="design"></Carousel>
                 </div>
                 <div class="w-full">
                     <h4 class="text-center">Electronics</h4>
-                    <Carousel :departments="departments"></Carousel>
+                    <Carousel :departments="electronics"></Carousel>
                 </div>
                 <!-- Fila 2 -->
                 <div class="w-full">
                     <h4 class="text-center">Propulsion</h4>
-                    <Carousel :departments="departments"></Carousel>
+                    <Carousel :departments="propulsion"></Carousel>
                 </div>
                 <div class="w-full">
                     <h4 class="text-center">Recovery</h4>
-                    <Carousel :departments="departments"></Carousel>
+                    <Carousel :departments="recovery"></Carousel>
                 </div>
                 <!-- Añade más filas según sea necesario -->
             </div>
             <h4 class="mt-3 text-center">Marketing and business</h4>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-full md:w-1/2">
-                    <Carousel :departments="departments"></Carousel>
+                    <Carousel :departments="marketing"></Carousel>
                 </div>
             </div>
         </div>
@@ -43,28 +43,38 @@ export default {
     },
     data() {
         return {
-            departments: [
+            design: [
                 {
                     title: 'Design',
-                    image: '/images/departments/department_design.jpg'
+                    image: '/images/departments/department_design_1.jpg'
                 },
+                {
+                    title: 'Design 2',
+                    image: '/images/departments/department_design_2.jpg'
+                },
+            ],
+            electronics: [
                 {
                     title: 'Electronics',
                     image: '/images/departments/department_electronics.jpg'
                 },
+            ],
+            propulsion: [
                 {
                     title: 'Propulsion',
                     image: '/images/departments/department_propulsion.jpg'
                 },
             ],
-            pictures2: [
+            recovery: [
                 {
-                    title: 'Design',
-                    image: '/images/departments/department_design.jpg'
+                    title: 'Recovery',
+                    image: '/images/departments/department_propulsion.jpg'
                 },
+            ],
+            marketing: [
                 {
-                    title: 'Electronics',
-                    image: '/images/departments/department_electronics.jpg'
+                    title: 'Marketing',
+                    image: '/images/departments/department_marketing.jpg'
                 },
             ]
         }
