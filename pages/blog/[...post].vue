@@ -8,6 +8,7 @@
         </article>
       </ContentDoc>
     </Main>
+    <Footer></Footer>
 </template>
 
 <style>

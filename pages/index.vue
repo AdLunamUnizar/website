@@ -7,4 +7,5 @@
     <Departments></Departments>
     <LastBlog></LastBlog>
     <Partners></Partners>
+    <Footer></Footer>
 </template>

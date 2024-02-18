@@ -11,6 +11,7 @@
             </article>
         </div>
     </Main>
+    <Footer></Footer>
 </template>
 
 <script setup>
