@@ -3,6 +3,7 @@ title: Misión Augusta
 description: Sobre la misión Augusta
 date: 24/09/2023
 photo: lanzamiento_augusta.jfif
+video: /public/videos/lanzamiento_augusta.mp4
 ---
 
 # Misión Augusta
@@ -13,11 +14,11 @@ La misión de AUGUSTA es realizar un lanzamiento exitoso así como la verificaci
 
 ## El cohete
 
-Longitud del cohete 1 m
-Diámetro exterior 51 mm
-Masa con motores 1140 g
-Aceleración máxima 10,5 g
-Apogeo estimado 400 m
+- Longitud del cohete 1 m
+- Diámetro exterior 51 mm
+- Masa con motores 1140 g
+- Aceleración máxima 10,5 g
+- Apogeo estimado 400 m
 
 ## Propulsión
 
@@ -41,4 +42,7 @@ Tras varios meses de trabajo en equipo, por fin llegó el 23 de septiembre, un d
 
 ## Vídeo del lanzamiento
 
-![](/public/videos/lanzamiento_augusta.mp4)
+<video width="320" height="240" controls>
+  <source src="/videos/lanzamiento_augusta.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de vídeo.
+</video>

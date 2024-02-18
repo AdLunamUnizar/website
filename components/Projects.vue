@@ -9,7 +9,7 @@
                 <h3 class="text-gray-900 dark:text-white">AUGUSTA</h3>
                 <time class="mb-1 text-sm font-normal leading-none text-primary">23 September, 2023</time>
                 <p class="mb-1 text-base font-normal text-gray-500 dark:text-gray-100">Our first rocket AUGUSTA (Aerospace Unit for General Use in Space Technology and Aviation) succesfully launched on September 23 in Alcolea de Cinca.</p>
-                <ButtonFilled>Learn more</ButtonFilled>
+                <a href="/blog/augusta"><ButtonFilled>Learn more</ButtonFilled></a>
             </li>
             <li class="mb-10 ml-4">
                 <div
