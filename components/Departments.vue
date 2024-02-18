@@ -52,8 +52,28 @@ export default {
                     title: 'Design 2',
                     image: '/images/departments/department_design_2.jpg'
                 },
+                {
+                    title: 'Design 3',
+                    image: '/images/departments/department_design_3.jpg'
+                },
             ],
             electronics: [
+                {
+                    title: 'Electronics',
+                    image: '/images/departments/department_electronics_2.jpg'
+                },
+                {
+                    title: 'Electronics',
+                    image: '/images/departments/department_electronics_3.jpg'
+                },
+                {
+                    title: 'Electronics',
+                    image: '/images/departments/department_electronics_4.jpg'
+                },
+                {
+                    title: 'Electronics',
+                    image: '/images/departments/department_electronics_5.jpg'
+                },
                 {
                     title: 'Electronics',
                     image: '/images/departments/department_electronics.jpg'
