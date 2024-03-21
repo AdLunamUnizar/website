@@ -20,4 +20,10 @@ export default({
     '@nuxt/content',
     'nuxt-particles'
   ],
+  generate:{
+    nojekyll: true, //not working on this version
+    fallback: '404.html',
+  },
+  ssr: false, //When false
+  target: "static", // and static, nuxt generates a SPA
 })
