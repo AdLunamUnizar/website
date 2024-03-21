@@ -8,9 +8,6 @@ export default({
       autoprefixer: {},
     },
   },
-  app: {
-    baseURL: '/website/',
-  },
   head: {
     title: 'AlUnizar',
     script: [
