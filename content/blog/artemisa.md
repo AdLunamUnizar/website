@@ -20,7 +20,7 @@ El fuselaje ha sido fabricado en cartón fenólico, mientras que la ojiva, aleta
 
 ## Propulsión: el corazón del ascenso
 
-ARTEMISA ha sido impulsado por un motor sólido comercial de la marca Cesaroni Technology, modelo Cesaroni Pro38 1G-134G60-14A-RL. Este motor contaba con 68,3 g de propelente, generando un impulso total de 134 Ns y alcanzando una velocidad máxima en aproximadamente 8,68 segundos. Una de sus particularidades ha sido la llama roja que generó durante su ascenso, característica del modelo Red Lightning. 
+ARTEMISA ha sido impulsado por un motor sólido comercial de la marca Cesaroni Technology, modelo Cesaroni Pro38 1G-134G60-14A-RL. Este motor contaba con 68,3 g de propelente, generando un impulso total de 134 Ns, lo que llevó a ARTEMISA alcanzar el apogeo en 8,68 segundos. Una de sus particularidades ha sido la llama roja que generó durante su ascenso, característica del modelo Red Lightning. 
 
 ![Diseño del cohete en OpenRocket](/images/blog/diseno_artemisa_openrocket.jpg "Diseño en OpenRocket")
 
