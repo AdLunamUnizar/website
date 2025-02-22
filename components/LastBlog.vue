@@ -12,5 +12,5 @@
 
 <script setup>
 const posts = await queryContent('/').find();
-const post = posts[posts.length - 1];
+const post = posts[0];
 </script>

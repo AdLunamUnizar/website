@@ -82,13 +82,25 @@ export default {
             propulsion: [
                 {
                     title: 'Propulsion',
-                    image: '/images/departments/department_propulsion.jpg'
+                    image: '/images/departments/department_propulsion.jpeg'
+                },
+                {
+                    title: 'Propulsion',
+                    image: '/images/departments/department_propulsion2.jpeg'
                 },
             ],
             recovery: [
                 {
                     title: 'Recovery',
-                    image: '/images/departments/department_propulsion.jpg'
+                    image: '/images/departments/department_recuperacion.jpeg'
+                },
+                {
+                    title: 'Recovery',
+                    image: '/images/departments/department_recuperacion2.jpeg'
+                },
+                {
+                    title: 'Recovery',
+                    image: '/images/departments/department_recuperacion3.jpeg'
                 },
             ],
             marketing: [
