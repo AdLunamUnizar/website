@@ -18,7 +18,7 @@
                 <h3 class="text-gray-900 dark:text-white">ARTEMISA</h3>
                 <time class="mb-1 text-sm font-normal leading-none text-primary">17 February, 2025</time>
                 <p class="mb-1 text-base font-normal text-gray-500 dark:text-gray-100">Iteration of the first rocket AUGUSTA, to apply the lessons learned and to improve the electronics and recovery system.</p>
-                <ButtonFilled>Learn more</ButtonFilled>
+                <a href="/blog/artemisa"><ButtonFilled>Learn more</ButtonFilled></a>
             </li>
             <li class="ml-4">
                 <div
