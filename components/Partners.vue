@@ -10,6 +10,8 @@
                 <a href="https://didyf.unizar.es/" class="m-2"><img src="/public/images/partners/didyf.png" class="w-auto h-20  m-3" alt="Diseño y fabricación UNIZAR" /></a>
                 <a href="https://ctmyf.unizar.es/" class="m-2"><img src="/public/images/partners/ctmyf.png" class="w-auto h-20  m-3" alt="Ciencia y tecnología de materiales y fluidos" /></a>
                 <a href="https://www.jointhe.space/" class="m-2"><img src="/public/images/partners/jointhespace.png" class="w-auto h-20  m-3" alt="Join The Space" /></a>
+                <a href="https://i3a.unizar.es/es" class="m-2"><img src="/public/images/partners/i3a.jpeg" class="w-auto h-20  m-3" alt="I3A" /></a>
+                <a href="https://www.leman.es/" class="m-2"><img src="/public/images/partners/leman.jpeg" class="w-auto h-20  m-3" alt="Leman" /></a>
             </div>
         </div>
     </div>
