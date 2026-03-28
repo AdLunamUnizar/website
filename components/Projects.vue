@@ -20,12 +20,21 @@
                 <p class="mb-1 text-base font-normal text-gray-500 dark:text-gray-100">Iteration of the first rocket AUGUSTA, to apply the lessons learned and to improve the electronics and recovery system.</p>
                 <a href="/blog/artemisa"><ButtonFilled>Learn more</ButtonFilled></a>
             </li>
+            <li class="mb-10 ml-4">
+                <div
+                    class="absolute w-3 h-3 rounded-full -left-1.5 border border-primary bg-primary">
+                </div>
+                <h3 class="text-gray-900 dark:text-white">ARTEMISA II</h3>
+                <time class="mb-1 text-sm font-normal leading-none text-primary">13 December, 2025</time>
+                <p class="mb-1 text-base font-normal text-gray-500 dark:text-gray-100">Upgraded version of the rocket ARTEMISA to obtain the L1 certification.</p>
+                <a href="/blog/artemisaii"><ButtonFilled>Learn more</ButtonFilled></a>
+            </li>
             <li class="ml-4">
                 <div
                     class="absolute w-3 h-3 rounded-full -left-1.5 border border-primary bg-primary">
                 </div>
                 <h3 class="text-gray-900 dark:text-white">Testbench</h3>
-                <time class="mb-1 text-sm font-normal leading-none text-primary">Developing from 2023 to 2025</time>
+                <time class="mb-1 text-sm font-normal leading-none text-primary">Developing from 2023 to 2026</time>
                 <p class="mb-1 text-base font-normal text-gray-500 dark:text-gray-100">Our own test bench for measuring relevant variables of our own-made engines such as the power or internal pressure. In addition to this, we want to build an environment that can simulate flight to test our own-made electronics.</p>
                 <ButtonFilled>Learn more</ButtonFilled>
             </li>
