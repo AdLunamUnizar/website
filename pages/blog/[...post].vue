@@ -1,12 +1,10 @@
 <template>
   <Header></Header>
   <Main>
-    <ContentDoc v-slot="{ doc }">
-      <article class="article-content">
-        <div :style="`background-image: url('/images/blog/` + doc.photo + `')`" class="w-full h-60 rounded-md bg-cover"></div>
-        <ContentRenderer :value="doc" />
-      </article>
-    </ContentDoc>
+    <article v-if="post" class="article-content">
+      <div :style="`background-image: url('/images/blog/` + post.photo + `')`" class="w-full h-60 rounded-md bg-cover"></div>
+      <ContentRenderer :value="post" />
+    </article>
   </Main>
   <Footer></Footer>
 </template>
@@ -47,13 +45,11 @@ h1 {
 </style>
 
 <script setup>
-/* Código comentado para obtener el contenido Markdown
+import { queryCollection } from '#imports'
+
 const route = useRoute()
-const post = route.params.post[0]
-console.log(post)
-const result = await useAsyncData(`${post}`, () => {
-  return queryContent().where({ _path: `/${post}` }).findOne()
+
+const { data: post } = await useAsyncData(route.path, async () => {
+  return queryCollection('blog').path(route.path).first()
 })
-console.log(result)
-*/
 </script>

@@ -6,11 +6,10 @@
       content="AdLunamUnizar Rocketry Team Website."
     />
   </Head>
-  <NuxtPage/>
-  <div style="position: relative; z-index: -1;">
-  <NuxtParticles
-    id="tsparticles"
-    url="json/particlesjs-config.json"
-  ></NuxtParticles>
+  <div class="relative isolate min-h-screen">
+    <ParticlesBackground />
+    <div class="relative z-10">
+      <NuxtPage />
+    </div>
   </div>
 </template>
