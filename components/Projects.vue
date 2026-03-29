@@ -29,6 +29,14 @@
                 <p class="mb-1 text-base font-normal text-gray-500 dark:text-gray-100">Upgraded version of the rocket ARTEMISA to obtain the L1 certification.</p>
                 <a href="/blog/artemisaii"><ButtonFilled>Learn more</ButtonFilled></a>
             </li>
+            <li class="mb-10 ml-4">
+                <div
+                    class="absolute w-3 h-3 rounded-full -left-1.5 border border-primary bg-primary">
+                </div>
+                <h3 class="text-gray-900 dark:text-white">Next: L1 Rocket</h3>
+                <time class="mb-1 text-sm font-normal leading-none text-primary">Summer, 2026</time>
+                <p class="mb-1 text-base font-normal text-gray-500 dark:text-gray-100">This summer we will launch a L1 rocket.</p>
+            </li>
             <li class="ml-4">
                 <div
                     class="absolute w-3 h-3 rounded-full -left-1.5 border border-primary bg-primary">

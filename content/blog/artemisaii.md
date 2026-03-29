@@ -3,7 +3,8 @@ title: Misión Artemisa II
 description: Lanzamiento de Artemisa II
 date: 14/12/2025
 photo: artemisaii.jfif
-img: /images/blog/artemisa2_desmontado.jpg
+img: /images/blog/artemisaii/MontajeCohete.jpeg
+video: /public/videos/lanzamiento_artemisaii.mp4
 ---
 
 # Misión ARTEMISA II
@@ -14,8 +15,6 @@ El vuelo se llevó a cabo en **Alcolea de Cinca**, junto a **Spain Rocketry**. E
 
 Este lanzamiento supone un nuevo avance a nivel técnico y operativo, y refuerza el trabajo que venimos realizando en el ámbito de la cohetería.
 
-![Cohete en fase de montaje](/images/blog/artemisa2_desmontado.jpg "Cohete en fase de montaje")
-
 ## Especificaciones del cohete
 
   * **Longitud del cohete:** 103 cm.
@@ -23,6 +22,8 @@ Este lanzamiento supone un nuevo avance a nivel técnico y operativo, y refuerza
   * **Masa con motores:** 1406 g.
   * **Aceleración máxima:** 15 g.
   * **Apogeo estimado:** 550 m.
+
+![Cohete en fase de montaje](/images/blog/artemisaii/MontajeCohete.jpeg "Cohete en fase de montaje")
 
 ## Propulsión
 
@@ -36,6 +37,8 @@ Este lanzamiento supone un nuevo avance a nivel técnico y operativo, y refuerza
   * **Color de la llama:** blanca (W = White Lighting).
   * **Dimensiones del motor:** 29 x 184 mm (diámetro x longitud).
   * **Tiempo hasta el apogeo:** 10 segundos.
+
+![Cohete Volando](/images/blog/artemisaii/CoheteVolando.jpeg "Cohete Volando")
 
 ## Diseño y recuperación
 
@@ -55,6 +58,8 @@ Este lanzamiento supone un nuevo avance a nivel técnico y operativo, y refuerza
 
 ### Sistema de recuperación
 Se empleó la carga de eyección del motor (pequeña carga de pólvora) para el despliegue del paracaídas. Se ajustó el delay del motor para que el paracaídas se desplegara en el apogeo. El delay se refiere a cuántos segundos transcurren desde que termina de quemar al motor hasta que se dispara la carga de eyección del mismo. De serie, el delay de nuestro motor es de 14 segundos. Con una herramienta específica se redujo a 11 segundos. Funcionó a la perfección.
+
+![Cohete tras su recuperación](/images/blog/artemisaii/CoheteParacaidasDesplegado.jpeg "Cohete tras su recuperación")
 
 ## Electrónica
 
@@ -76,3 +81,12 @@ IEEE, EINA, ITA, LEMAN, Altair, Universidad de Zaragoza.
   * **Altura alcanzada:** No pudimos registrar la altura alcanzada debido a que el cohete no llevaba altímetro ni electrónica para medir la altura. Estimamos que alcanzó una altura de 550 metros.
 
 El momento del despegue quedó retrasado por dos tentativas de encendido. La primera de ellas, a causa de que no se encendió el ignitor. La segunda, a causa de tener que desmontar el motor para quitar la oxidación superficial del último grano, tras el período de no utilización previo. En el tercer y último intento, se emplearon dos ignitores para encender el motor.
+
+![Equipo con el cohete recuperado](/images/blog/artemisaii/Equipo2.jpeg "Equipo con el cohete recuperado")
+
+## Vídeo del lanzamiento
+
+<video width="320" height="240" controls>
+  <source src="/videos/lanzamiento_artemisaii.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de vídeo.
+</video>
